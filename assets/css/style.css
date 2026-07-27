@@ -24,7 +24,7 @@ aside {
 div.icone-whatsapp {
     background-color: #111111;
     border-radius: 50%;
-    border: solid #EEB424 3px;
+    border: solid #C9892A 3px;
     width: 60px;   
     height: 60px;  
     display: flex;
@@ -71,19 +71,19 @@ header{
     font-weight: bold;
 }
 .cabecalho-menu a:hover{
-    color: #EEB424;
+    color: #C9892A;
 }
 .button-nav{
     background-color: #0B0B0B;
-    color: #EEB424;
+    color: #C9892A;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 5px;
-    border: solid #EEB424 2px;
+    border: solid #C9892A 2px;
 }
 a.button-nav:hover{
-    background-color: #EEB424;
+    background-color: #C9892A;
     color: #0B0B0B;
     transition: 0.3s;
 }
@@ -98,7 +98,7 @@ a.button-nav:hover{
 .menu-toggle .bar {
     height: 3px;
     width: 28px;
-    background-color: #EEB424;
+    background-color: #C9892A;
     border-radius: 2px;
     transition: all 0.3s ease;
 }
@@ -175,7 +175,7 @@ a.button-nav:hover{
     margin: 5px 10px;
 }
 .menu-catalogo a:hover{
-    color: #EEB424;
+    color: #C9892A;
 }
 .catalogo-container-cards{
     background-color: #fefefe;
@@ -245,7 +245,7 @@ footer{
     margin: 8px 0px 15px;
 }
 .footer-coluna a:hover{
-    color: #EEB424;
+    color: #C9892A;
 }
 .footer-coluna img{
     height: 20px;
