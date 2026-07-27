@@ -153,8 +153,65 @@ a.button-nav:hover{
     padding: 10px 100px;
     }
 }
+/*<!-- --------------------main-------------------- -->*/
+.catalogo{
+    margin-top: 50px;
+    padding: 50px 150px;
+    background-color: #0B0B0B;
+    text-align: center ;
+}
+.catalogo h2{
+    color: #fefefe;
+}
+.menu-catalogo, .menu-catalogo ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0px;
+    flex-wrap: wrap;
+}
+.menu-catalogo li{
+    list-style: none;
+    margin: 5px 10px;
+}
+.menu-catalogo a:hover{
+    color: #EEB424;
+}
+.catalogo-container-cards{
+    background-color: #fefefe;
+    border-radius: 5px;
+    padding: 20px 0px;
+}
+.catalogo-container{
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.catalogo-container.ativo{
+    display: flex;
+}
+.catalogo-card{
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 15px;
+}
+.catalogo-card-image img{
+    height: 150px;
+}
+.phone{display: none}
+.tablet{display: none}
+.pc{display: block}
+/* --- RESPONSIVIDADE (Telas até 1200px) --- */
+@media screen and (max-width: 1200px) {
+    .phone{display: block}
+    .tablet{display: none}
+    .pc{display: none}
 
-
+    .catalogo{
+        padding: 50px 80px;
+    }
+}
 /*<!-- --------------------footer-------------------- -->*/
 footer{
     background-color: #0B0B0B;
