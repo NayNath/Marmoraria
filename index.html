@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>J&L Marmores e Granitos</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
     <link rel="icon" type="imagem/png" href="assets/img/logo.jpg">
 </head>
 <body>
@@ -47,51 +48,61 @@
         </section>
 <!-- -------------------------Nossos Serviços------------------------- -->
         <section id="servicos">
-            <div class="servicos-card">
-                <div class="servicos-card-image">
-                    <img src="" alt="imagem de uma cozinha com mármore e granito">
+            <h2>Nossos Serviços</h2>
+            <div class="swiper">
+                <div class="servicos-container-card swiper-wrapper">
+                    <div class="servicos-card swiper-slide">
+                        <div class="servicos-card-image">
+                            <img src="assets/img/teste.jpg" alt="imagem de uma cozinha com mármore e granito">
+                        </div>
+                        <div class="servicos-card-texto">
+                            <h3>Cozinhas Planejadas</h3>
+                            <p>Transforme sua cozinha em um espaço funcional e elegante com nossas soluções sob medida em mármore e granito</p>
+                        </div>
+                    </div>
+                    <div class="servicos-card swiper-slide">
+                        <div class="servicos-card-image">
+                            <img src="assets/img/teste.jpg" alt="imagem de um banheiro com mármore e granito">
+                        </div>
+                        <div class="servicos-card-texto">
+                            <h3>Banheiros e Lavabos</h3>
+                            <p>Pias esculpidas, nichos, soleiras e revestimentos</p>
+                        </div>
+                    </div>
+                    <div class="servicos-card swiper-slide">
+                        <div class="servicos-card-image">
+                            <img src="assets/img/teste.jpg" alt="imagem de uma escada com mármore e granito">
+                        </div>
+                        <div class="servicos-card-texto">
+                            <h3>Escadas</h3>
+                            <p>Designs elegantes e funcionais para escadas em mármore e granito</p>
+                        </div>
+                    </div>
+                    <div class="servicos-card swiper-slide">
+                        <div class="servicos-card-image">
+                            <img src="assets/img/teste.jpg" alt="imagem de um ambiente com mármore e granito">
+                        </div>
+                        <div class="servicos-card-texto">
+                            <h3>Piscina</h3>
+                            <p>Transforme sua área de lazer com o charme e a resistência do mármore e do granito</p>
+                        </div>
+                    </div>
+                    <div class="servicos-card swiper-slide">
+                        <div class="servicos-card-image">
+                            <img src="assets/img/teste.jpg" alt="imagem de um ambiente com mármore e granito">
+                        </div>
+                        <div class="servicos-card-texto">
+                            <h3>Nichos</h3>
+                            <p>Nichos em mármore e granito que unem praticidade, elegância e um acabamento impecável para o seu ambiente</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="servicos-card-image">
-                    <h2>Cozinhas Planejadas</h2>
-                    <p>Transforme sua cozinha em um espaço funcional e elegante com nossas soluções sob medida em mármore e granito</p>
-                </div>
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
-            <div class="servicos-card">
-                <div class="servicos-card-image">
-                    <img src="" alt="imagem de um banheiro com mármore e granito">
-                </div>
-                <div class="servicos-card-image">
-                    <h2>Banheiros e Lavabos</h2>
-                    <p>Pias esculpidas, nichos, soleiras e revestimentos</p>
-                </div>
-            </div>
-            <div class="servicos-card">
-                <div class="servicos-card-image">
-                    <img src="" alt="imagem de uma escada com mármore e granito">
-                </div>
-                <div class="servicos-card-image">
-                    <h2>Escadas</h2>
-                    <p>Designs elegantes e funcionais para escadas em mármore e granito</p>
-                </div>
-            </div>
-            <div class="servicos-card">
-                <div class="servicos-card-image">
-                    <img src="" alt="imagem de um ambiente com mármore e granito">
-                </div>
-                <div class="servicos-card-image">
-                    <h2>Piscina</h2>
-                    <p>Transforme sua área de lazer com o charme e a resistência do mármore e do granito</p>
-                </div>
-            </div>
-            <div class="servicos-card">
-                <div class="servicos-card-image">
-                    <img src="" alt="imagem de um ambiente com mármore e granito">
-                </div>
-                <div class="servicos-card-image">
-                    <h2>Nichos</h2>
-                    <p>Nichos em mármore e granito que unem praticidade, elegância e um acabamento impecável para o seu ambiente</p>
-                </div>
-            </div>
+
         </section>
 <!-- -------------------------Catálogo de Pedras------------------------- -->
         <section class="catalogo">
@@ -492,6 +503,9 @@
             cabecalhoMenu.classList.toggle('active');
         });
     </script>
+<!-- -------------------------serviços------------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="assets/script.j"></script>
 <!-- -------------------------catalogo------------------------- -->
     <script>
         const links = document.querySelectorAll(".menu-catalogo a");
