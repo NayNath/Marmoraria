@@ -9,7 +9,7 @@ h2{
     font-size: 32px;    
 }
 h3{
-    font-size: 28px;    
+    font-size: 24px;    
 }
 p{
     font-size: 16px;
@@ -52,12 +52,12 @@ header{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    padding: 10px 200px;
-    height: 100px;
-    background-color: #0B0B0B;
+    padding: 5px 200px;
+    background-image: url('../img/fundo.jpg');
+    background-repeat: no-repeat;
 }
 .logo img{
-    height: 80px;
+    height: 70px;
 }
 .cabecalho-menu ul{
     display: flex;
@@ -199,13 +199,11 @@ a.button-nav:hover{
 .catalogo-card-image img{
     height: 150px;
 }
-.phone{display: none}
 .tablet{display: none}
 .pc{display: block}
 /* --- RESPONSIVIDADE (Telas até 1200px) --- */
 @media screen and (max-width: 1200px) {
-    .phone{display: block}
-    .tablet{display: none}
+    .tablet{display: block}
     .pc{display: none}
 
     .catalogo{
@@ -214,83 +212,20 @@ a.button-nav:hover{
 }
 /*<!-- --------------------footer-------------------- -->*/
 footer{
-    background-color: #0B0B0B;
+    background-image: url('../img/fundo.jpg');
+    background-repeat: no-repeat;
     color: #fefefe;
-    padding: 20px 150px;
+    padding: 15px 150px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
-.footer-principal{
-    display: flex;
     justify-content: space-around;
-    flex-direction: row;
-    width: 100%;
-    flex-wrap: wrap;
-    align-items: center;
 }
 .footer-logo, .footer-logo img{
     height: 60px;
-    margin-bottom: 20px;
-}
-.footer-colunas{
-    display: flex;
-}
-.footer-coluna ul{
-    margin: 10px;
-}
-.footer-coluna li{
-    text-decoration: none;
-    display: flex;
-    margin: 8px 0px 15px;
-}
-.footer-coluna a:hover{
-    color: #C9892A;
-}
-.footer-coluna img{
-    height: 20px;
-    filter:invert(100%)
 }
 .footer-inferior,.footer-inferior p{
     text-align: center;
-    font-size: 10px;
-    display: flex;
-    text-align: center;
+    font-size: 12px;
     padding: 10px 0;
-
-}
-.phone{display: none}
-.tablet{display: none}
-.pc{display: block}
-/* --- RESPONSIVIDADE (Telas até 1200px) --- */
-@media screen and (max-width: 795px) {
-    .phone{display: block}
-    .tablet{display: none}
-    .pc{display: none}
-    
-    footer{
-        padding: 20px 80px;
-    }
-    .footer-principal{
-        flex-direction: column;
-    }
-    .footer-colunas{
-        display: flex;
-        flex-direction: column;
-    }
-}
-@media screen and (min-width: 795px) and (max-width: 1200px) {
-    .phone{display: none}
-    .tablet{display: block}
-    .pc{display: none}
-    
-    footer{
-        padding: 20px 80px;
-        display: flex;
-        flex-direction: row-reverse;
-    }
-    .footer-colunas{
-        display: flex;
-        flex-direction: column;
-    }
 }
