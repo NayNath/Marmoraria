@@ -238,7 +238,6 @@ a.button-nav:hover{
         margin-top: 15px;
         width: 90%;
     }
-    
 }
 @media screen and (min-width: 750px) and (max-width: 1220px) {
     .phone{display: none}
@@ -258,11 +257,9 @@ a.button-nav:hover{
         width: 90%;
     }
 }
-
 /*<!-- servicos -->*/
 #servicos {
     margin-top: 50px;
-    background-color: #fefefe;
     padding: 50px 20px;
     text-align: center;
 }
@@ -270,20 +267,18 @@ a.button-nav:hover{
     margin-bottom: 40px;
     color: #000;
 }
-
-/* Envolvente para posicionar as setas fora do carrossel */
 .swiper-container-wrapper {
     position: relative;
     max-width: 1500px;
     margin: 0 auto;
-    padding: 0 60px; /* Espaço para as setas laterais */
+    padding: 0 60px;
 }
 .swiper-wrapper {
     display: flex;
     align-items: stretch;
 }
 .swiper-slide {
-    height: auto; /* Faz o slide ocupar toda a altura do wrapper */
+    height: auto;
     display: flex;
 }
 .servicos-card {
@@ -307,7 +302,7 @@ a.button-nav:hover{
     object-fit: cover;
 }
 .servicos-card-texto {
-    background-color: #a6a6a6;
+    background-color: #f9f6f1;
     height: 180px;
     color: #111;
     padding: 20px;
@@ -325,7 +320,7 @@ a.button-nav:hover{
 }
 .swiper-button-next,
 .swiper-button-prev {
-    color: #000000 !important; /* Muda a cor da seta */
+    color: #000000; /* Muda a cor da seta */
 }
 .swiper-button-prev {
     left: 10px;
@@ -335,13 +330,22 @@ a.button-nav:hover{
 }
 
 /*<!-- catalogo -->*/
-.catalogo{
+#catalogo{
     margin-top: 50px;
-    padding: 50px 150px;
-    background-color: #111;
+    padding: 50px 50px 100px;
+    background-color: #fffefb; /*************************************Muda a cor da seta*************************************/
     text-align: center ;
 }
-.catalogo h2{
+.catalogo-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+hr.catalogo{
+    margin: 0px 20px;
+}
+#catalogo h2{
     color: #C9892A;
 }
 .menu-catalogo, .menu-catalogo ul{
@@ -355,13 +359,15 @@ a.button-nav:hover{
     list-style: none;
     margin: 5px 10px;
 }
-.menu-catalogo a:hover{
-    text-decoration:overline;
-}
 .menu-catalogo a{
-    color: #C9892A;
+    color: #111;
     font-size: 20px;
 }
+.menu-catalogo a:hover{
+    text-decoration:overline;
+    color: #C9892A;
+}
+
 .catalogo-container-cards{
     border: solid #C9892A 1px;
     background-color: #fefefe;
@@ -397,10 +403,44 @@ a.button-nav:hover{
 @media screen and (max-width: 1200px) {
     .tablet{display: block}
     .pc{display: none}
-
     .catalogo{
         padding: 50px 80px;
     }
+}
+/*<!-- sobre -->*/
+.sobre-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 100px 150px;
+    padding: 50px 0px;
+    flex-wrap: wrap;
+}
+.sobre-img{
+    width: 40%;
+}
+.sobre-img img{
+    width: 100%;
+}
+.sobre-text{
+    width: 40%;
+}
+.sobre-text h2{
+    color: #C9892A;
+}
+hr.sobre{
+    width: 60%;
+    margin-top: 30px;
+    float: left;
+}
+hr.direita{
+    margin-bottom: 30px;
+    float: right;
+}
+.sobre-text p{
+    width: 70%;
+    margin-top: 10px;
 }
 /*<!-- --------------------footer-------------------- -->*/
 footer{
