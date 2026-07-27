@@ -172,10 +172,15 @@ a.button-nav:hover{
 }
 .banner-text{
     padding: 200px 150px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 .banner-text h1{
+    display: flex;
+    flex-wrap: wrap;
     font-size: 50px;
-    width: 900px;
+    width: 100%;
 }
 .amarelo{
     color: #C9892A;
@@ -209,6 +214,51 @@ a.button-nav:hover{
 .banner-image, .banner-image img{
     height: 100%;
 }
+.phone{display: none}
+.tablet{display: none}
+.pc{display: block}
+
+@media screen and (max-width: 750px) {
+    .phone{display: block}
+    .tablet{display: none}
+    .pc{display: none}
+
+    .banner-text{
+        padding: 200px 80px 100px;
+    }
+        .banner-text h1{
+        font-size: 30px;
+    }
+    .amarelo{
+        color: #C9892A;
+        font-size: 40px;
+        width: 90%;
+    }
+    .banner-text p{
+        margin-top: 15px;
+        width: 90%;
+    }
+    
+}
+@media screen and (min-width: 750px) and (max-width: 1220px) {
+    .phone{display: none}
+    .tablet{display: block}
+    .pc{display: none}
+    
+    .banner-text{
+        padding: 200px 80px 100px;
+    }
+    .banner-text h1{
+        font-size: 40px;
+        width: 80%;
+    }
+    .amarelo{
+        color: #C9892A;
+        font-size: 50px;
+        width: 90%;
+    }
+}
+
 /*<!-- servicos -->*/
 #servicos {
     margin-top: 50px;
