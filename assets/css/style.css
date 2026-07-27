@@ -286,7 +286,6 @@ a.button-nav:hover{
     height: auto; /* Faz o slide ocupar toda a altura do wrapper */
     display: flex;
 }
-
 .servicos-card {
     border-radius: 5px;
     overflow: hidden;
@@ -339,11 +338,11 @@ a.button-nav:hover{
 .catalogo{
     margin-top: 50px;
     padding: 50px 150px;
-    background-color: #0B0B0B;
+    background-color: #111;
     text-align: center ;
 }
 .catalogo h2{
-    color: #fefefe;
+    color: #C9892A;
 }
 .menu-catalogo, .menu-catalogo ul{
     display: flex;
@@ -357,12 +356,18 @@ a.button-nav:hover{
     margin: 5px 10px;
 }
 .menu-catalogo a:hover{
+    text-decoration:overline;
+}
+.menu-catalogo a{
     color: #C9892A;
+    font-size: 20px;
 }
 .catalogo-container-cards{
+    border: solid #C9892A 1px;
     background-color: #fefefe;
     border-radius: 5px;
     padding: 20px 0px;
+    box-shadow: 8px 10px 8px rgba(140, 139, 139, 0.199);
 }
 .catalogo-container{
     display: none;
@@ -380,6 +385,11 @@ a.button-nav:hover{
 }
 .catalogo-card-image img{
     height: 200px;
+    transition: transform 0.3s ease;
+    box-shadow: 8px 10px 8px rgba(140, 139, 139, 0.199);
+}
+.catalogo-card-image img:hover{
+    transform: translateY(-10px)
 }
 .tablet{display: none}
 .pc{display: block}
