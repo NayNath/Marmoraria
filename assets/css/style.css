@@ -80,14 +80,16 @@ header{
 .cabecalho-menu a:hover{
     color: #C9892A;
 }
-.button-nav{
-    background-color: #0B0B0B;
+.button{
     color: #C9892A;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 5px;
     border: solid #C9892A 2px;
+}
+.button-nav{
+    background-color: #0B0B0B;
 }
 a.button-nav:hover{
     background-color: #C9892A;
@@ -161,16 +163,61 @@ a.button-nav:hover{
     }
 }
 /*<!-- --------------------main-------------------- -->*/
+/*<!-- banner -->*/
+#banner{
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:linear-gradient(to right, #f9f6f1, #f9f6f1,#f9f6f1f0, #f9f6f100), url("../img/teste.jpg");
+}
+.banner-text{
+    padding: 200px 150px 100px;
+}
+.banner-text h1{
+    font-size: 50px;
+    width: 900px;
+}
+.amarelo{
+    color: #C9892A;
+    font-size: 60px;
+    width: 750px;
+}
+.linha-amarelo{
+    height: 2px;
+    background-color: #C9892A;
+    border: none;
+    width: 150px;
+} 
+.banner-text p{
+    margin-top: 15px;
+    width: 550px;
+}
+.button-banner{
+    margin: 80px 0px;
+}
+.button-banner a{
+    margin: 80px 0px;
+    padding: 10px 40px;
+    background-color: #C9892A;
+    color: #fefefe;
+}
+.button-banner a:hover{
+    background-color:#111;
+    color: #C9892A;
+}
+
+.banner-image, .banner-image img{
+    height: 100%;
+}
 /*<!-- servicos -->*/
 #servicos {
+    margin-top: 50px;
     background-color: #fefefe;
     padding: 50px 20px;
     text-align: center;
 }
-
 #servicos h2 {
-    font-size: 2rem;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     color: #000;
 }
 
