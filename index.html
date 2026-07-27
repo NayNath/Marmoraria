@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" type="imagem/png" href="assets/img/logo.jpg">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
     <header>
@@ -61,7 +62,7 @@
                     
                     <div class="servicos-card swiper-slide">
                         <div class="servicos-card-image">
-                            <img src="assets/img/teste.jpg" alt="Cozinhas Planejadas">
+                            <img src="assets/img/cozinha.jpg" alt="Cozinhas Planejadas">
                         </div>
                         <div class="servicos-card-texto">
                             <h3>Cozinhas Planejadas</h3>
@@ -72,7 +73,7 @@
 
                     <div class="servicos-card swiper-slide">
                         <div class="servicos-card-image">
-                            <img src="assets/img/teste.jpg" alt="Banheiros e Lavabos">
+                            <img src="assets/img/banheiro.jpg" alt="Banheiros e Lavabos">
                         </div>
                         <div class="servicos-card-texto">
                             <h3>Banheiros e Lavabos</h3>
@@ -83,7 +84,7 @@
 
                     <div class="servicos-card swiper-slide">
                         <div class="servicos-card-image">
-                            <img src="assets/img/teste.jpg" alt="Escadas">
+                            <img src="assets/img/escadas.jpg" alt="Escadas">
                         </div>
                         <div class="servicos-card-texto">
                             <h3>Escadas</h3>
@@ -94,7 +95,18 @@
 
                     <div class="servicos-card swiper-slide">
                         <div class="servicos-card-image">
-                            <img src="assets/img/teste.jpg" alt="Piscina">
+                            <img src="assets/img/bancada.jpg" alt="Bancada">
+                        </div>
+                        <div class="servicos-card-texto">
+                            <h3>Bancadas</h3>
+                            <p>Bancadas em mármore e granito que unem elegância, funcionalidade e durabilidade para transformar qualquer ambiente.</p>
+                            <a href="#" class="btn-orcamento">Solicite um Orçamento &rarr;</a>
+                        </div>
+                    </div>
+
+                    <div class="servicos-card swiper-slide">
+                        <div class="servicos-card-image">
+                            <img src="assets/img/piscina.jpg" alt="Piscina">
                         </div>
                         <div class="servicos-card-texto">
                             <h3>Piscina</h3>
@@ -105,7 +117,7 @@
 
                     <div class="servicos-card swiper-slide">
                         <div class="servicos-card-image">
-                            <img src="assets/img/teste.jpg" alt="Nichos">
+                            <img src="assets/img/nicho.jpg" alt="Nichos">
                         </div>
                         <div class="servicos-card-texto">
                             <h3>Nichos</h3>
@@ -453,7 +465,28 @@
         <section id="sobre">
             <div class="sobre-conteiner">
                 <div class="sobre-img">
-                    <img src="assets/img/teste.jpg" alt="imagem de sobre nós">
+                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/img/sobre.jpg" class="d-block w-100" alt="bancada de mármore">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/sobre2.jpg" class="d-block w-100" alt="banheiro">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/sobre3.jpg" class="d-block w-100" alt="cozinha">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/sobre4.jpg" class="d-block w-100" alt="piscina">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/sobre5.jpg" class="d-block w-100" alt=" bancada de cozinha">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/sobre6.jpg" class="d-block w-100" alt=" escadas">
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="sobre-text">
                     <hr class="linha-amarelo sobre direita">
@@ -466,45 +499,65 @@
         </section>
 <!-- -------------------------Contatos------------------------- -->
         <section id="contatos">
-            <div class="contatos-text">
-                <h2>Contatos</h2>
-                <p>Entre em contato conosco para mais informações sobre nossos produtos e serviços.</p>
+            <h2>Contatos</h2>
+            <hr class="linha-amarelo contatos">
+            <div class="contatos-conteiner">
+                <div class="contatos-text">
+                    <div class="contato-endereco">
+                        <div class="contatos-info-item imagem">
+                            <img src="assets/img/iconeEndereco.png" alt="Ícone de endereço">
+                        </div>
+                        <div class="contato-endereco-descricao">
+                            <h3>Onde estamos</h3>
+                            <p>Entre em contato conosco para mais informações sobre nossos produtos e serviços.</p>
+                        </div>
+                    </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7289.871529587663!2d-46.41373305226598!3d-23.998045299999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce1c53ea75d47f%3A0xebed7380dc247256!2sLitoral%20Plaza!5e0!3m2!1spt-BR!2sbr!4v1785179053807!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                </div>
+                <div class="contatos-info">
+                    <div class="contatos-item">
+                        <div class="contatos-info-item imagem">
+                            <img src="assets/img/telefone.png" alt="Ícone de telefone">
+                        </div>
+                        <div class="contatos-info-item texto-contatos">
+                            <h3>Telefone</h3>
+                            <p>(11) 99999-9999</p>
+                        </div>
+                    </div>
+                    <div class="contatos-item">
+                        <div class="contatos-info-item imagem">
+                            <img src="assets/img/whatsapp.png" alt="Ícone de telefone">
+                        </div>
+                        <div class="contatos-info-item texto-contatos">
+                            <h3>WhatsApp</h3>
+                            <p>(11) 99999-9999</p>
+                        </div>
+                    </div>
+                    <div class="contatos-item">
+                        <div class="contatos-info-item imagem">
+                        <img src="assets/img/email.png" alt="Ícone de email">
+                        </div>
+                        <div class="contatos-info-item texto-contatos">
+                            <h3>Email</h3>
+                            <p>contato@jlmarble.com</p>
+                        </div>
+                    </div>
+                    <div class="contatos-item">
+                        <div class="contatos-info-item imagem">
+                        <img src="assets/img/instagram.png" alt="Ícone de email">
+                        </div>
+                        <div class="contatos-info-item texto-contatos">
+                            <h3>Instagram</h3>
+                            <p>@instagram</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="contatos-info">
-                <div class="contatos-info-item">
-                    <div class="contatos-info-item imagem">
-                        <img src="assets/img/telefone.png" alt="Ícone de telefone">
-                    </div>
-                    <div class="contatos-info-item texto">
-                        <h3>Telefone</h3>
-                        <p>(11) 99999-9999</p>
-                    </div>
-                </div>
-                <div class="contatos-info-item">
-                    <div class="contatos-info-item imagem">
-                        <img src="assets/img/telefone.png" alt="Ícone de telefone">
-                    </div>
-                    <div class="contatos-info-item texto">
-                        <h3>WhatsApp</h3>
-                        <p>(11) 99999-9999</p>
-                    </div>
-                </div>
-                <div class="contatos-info-item">
-                    <div class="contatos-info-item imagem">
-                    <img src="assets/img/email.png" alt="Ícone de email">
-                    </div>
-                    <div class="contatos-info-item texto">
-                        <h3>Email</h3>
-                        <p>contato@jlmarble.com</p>
-                    </div>
-                </div>
-            </div>
-            <div class="mapa">
 
             </div>
         </section>
     </main>
-
+<!-- -------------------------footer------------------------- -->
     <footer class="footer">
         <div class="footer-logo">
             <img src="assets/img/logo.jpg" alt="logo da marmoraria J&L marmores e granitos">
@@ -548,5 +601,9 @@
             });
         });
     </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+
 </body>
 </html>
