@@ -21,6 +21,7 @@ h4{
 p{
     font-size: 16px;
 }
+
 /*<!-- --------------------aside-------------------- -->*/
 aside {
     position: fixed;
@@ -206,6 +207,7 @@ a.button-nav:hover{
     padding: 10px 40px;
     background-color: #C9892A;
     color: #fefefe;
+    text-decoration: none;
 }
 .button-banner a:hover{
     background-color:#111;
@@ -410,6 +412,7 @@ a.btn-orcamento:hover {
 }
 .catalogo-card-image img{
     height: 200px;
+    width: 200px;
     transition: transform 0.3s ease;
     box-shadow: 8px 10px 8px rgba(140, 139, 139, 0.199);
 }
@@ -558,6 +561,10 @@ div.contatos-item:hover{
 .texto-contatos{
     display: flex;
     flex-direction: column;
+}
+.texto-contatos a{
+    text-decoration: none;
+    color: #111;
 }
 .phone{display: none}
 .tablet{display: none}
